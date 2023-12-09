@@ -1,0 +1,95 @@
+#s-12-1 {
+  animation: s121 var(--animation__duration) linear 1 alternate;
+}
+
+@keyframes s121 {
+  0%,
+  71% {
+    opacity: 0;
+  }
+
+  72%,
+  100% {
+    opacity: 1;
+  }
+}
+
+#s-12-2 {
+  animation: s122 var(--animation__duration) linear 1 alternate;
+}
+
+@keyframes s122 {
+  0%,
+  71% {
+    opacity: 0;
+  }
+
+  72%,
+  100% {
+    opacity: 1;
+  }
+}
+
+#s-13-1 {
+  animation: s131 var(--animation__duration) linear 1 alternate;
+}
+
+@keyframes s131 {
+  0%,
+  77% {
+    opacity: 0;
+  }
+
+  78%,
+  100% {
+    opacity: 1;
+  }
+}
+
+#s-13-2 {
+  animation: s132 var(--animation__duration) linear 1 alternate;
+}
+
+@keyframes s132 {
+  0%,
+  77% {
+    opacity: 0;
+  }
+
+  78%,
+  100% {
+    opacity: 1;
+  }
+}
+
+#s-14-1 {
+  animation: s141 var(--animation__duration) linear 1 alternate;
+}
+
+@keyframes s141 {
+  0%,
+  83% {
+    opacity: 0;
+  }
+
+  84%,
+  100% {
+    opacity: 1;
+  }
+}
+
+#s-14-2 {
+  animation: s142 var(--animation__duration) linear 1 alternate;
+}
+
+@keyframes s142 {
+  0%,
+  83% {
+    opacity: 0;
+  }
+
+  84%,
+  100% {
+    opacity: 1;
+  }
+}

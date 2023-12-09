@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soup Bowl Preloader</title>
+
+    <link rel="stylesheet" href="1-6.css" />
+    <link rel="stylesheet" href="7-11.css" />
+    <link rel="stylesheet" href="12-14.css" />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      @font-face {
+        font-family: impact;
+        src: url(impact.ttf);
+      }
+
+      :root {
+        --animation__duration: 1.5s;
+      }
+
+      .parentDiv {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background-color: #181610;
+        text-align: center;
+      }
+
+      .wrapper {
+        width: 100%;
+        max-width: 150px;
+      }
+
+      .beginBtn {
+        font-family: impact;
+        font-weight: extra-bold;
+        font-size: 18px;
+        line-height: 28px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+        padding: 10px 25px;
+        background-color: #3f3f46;
+        border-radius: 100px;
+        transform: translateY(30px);
+        display: inline-block;
+        opacity: 0;
+        animation: beginBtn 1s ease-in-out 1.5s forwards;
+      }
+
+      .beginBtn:hover {
+        background-color: #52525b;
+      }
+
+      @keyframes beginBtn {
+        0% {
+          transform: translateY(30px);
+          opacity: 0;
+        }
+
+        100% {
+          transform: translateY(0px);
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parentDiv">
+      <div class="wrapper">
+        <svg
+          width="100%"
+          min-height="0"
+          viewBox="0 0 406 295"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SoupBowl">
+            <g id="soup-bowl">
+              <g id="bowl">
+                <rect
+                  id="Rectangle 19"
+                  x="66.2344"
+                  y="176.469"
+                  width="273.5"
+                  height="27.5"
+                  fill="#2E2007"
+                />
+                <rect
+                  id="Rectangle 26"
+                  x="66.5469"
+                  y="176.469"
+                  width="273.188"
+                  height="27.5"
+                  fill="#1F1502"
+                />
+                <rect
+                  id="Rectangle 32"
+                  x="94.4844"
+                  y="203.969"
+                  width="217.25"
+                  height="26.25"
+                  fill="#1F1502"
+                />
+                <rect
+                  id="Rectangle 27"
+                  x="94.4844"
+                  y="203.969"
+                  width="217.25"
+                  height="26.25"
+                  fill="#1F1502"
+                />
+                <rect
+                  id="Rectangle 33"
+                  x="147.484"
+                  y="37.7188"
+                  width="110"
+                  height="219.562"
+                  fill="#1F1502"
+                />
+                <rect
+                  id="Rectangle 2"
+                  x="121.234"
+                  y="37.7188"
+                  width="163"
+                  height="166.25"
+                  fill="#3E2A0B"
+                />
+                <rect
+                  id="Rectangle 1"
+                  x="66.2344"
+                  y="65.4688"
+                  width="56.1875"
+                  height="27.75"
+                  fill="#3E2A0B"
+                />
+                <rect
+                  id="Rectangle 24"
+                  x="94.4844"
+                  y="176.469"
+                  width="189.75"
+                  height="27.5"
+                  fill="#714F0E"
+                />
+                <rect
+                  id="Rectangle 25"
+                  x="284.234"
+                  y="176.469"
+                  width="27.75"
+                  height="27.5"
+                  fill="#523809"
+                />
+                <rect
+                  id="Rectangle 29"
+                  x="147.484"
+                  y="203.969"
+                  width="26.75"
+                  height="26.25"
+                  fill="#523809"
+                />
+                <rect
+                  id="Rectangle 30"
+                  x="174.234"
+                  y="203.969"
+                  width="55.75"
+                  height="26.25"
+                  fill="#714F0E"
+                />
+                <rect
+                  id="Rectangle 31"
+                  x="229.984"
+                  y="203.969"
+                  width="27.5"
+                  height="26.25"
+                  fill="#523809"
+                />
+                <rect
+                  id="Rectangle 13"
+                  x="38.2969"
+                  y="93.2188"
+                  width="56.1875"
+                  height="83.25"
+                  fill="#3E2A0B"
+                />
+                <rect
+                  id="Rectangle 6"
+                  x="121.234"
+                  y="65.4688"
+                  width="218.5"
+                  height="27.75"
+                  fill="#3E2A0B"
+                />
+                <rect
+                  id="Rectangle 14"
+                  x="71.75"
+                  y="93.1562"
+                  width="295.984"
+                  height="83.3125"
+                  fill="#1F1502"
+                />
+                <rect
+                  id="Rectangle 3"
+                  x="121.234"
+                  y="65.4688"
+                  width="27.75"
+                  height="27.75"
+                  fill="#533809"
+                />
+                <rect
+                  id="Rectangle 4"
+                  x="148.984"
+                  y="65.4688"
+                  width="81.25"
+                  height="27.75"
+                  fill="#714F10"
+                />
+                <rect
+                  id="Rectangle 5"
+                  x="230.234"
+                  y="65.4688"
+                  width="54"
+                  height="27.75"
+                  fill="#533809"
+                />
+                <rect
+                  id="Rectangle 7"
+                  x="66.2344"
+                  y="93.1562"
+                  width="28.25"
+                  height="27.8125"
+                  fill="#533809"
+                />
+                <rect
+                  id="Rectangle 15"
+                  x="66.2344"
+                  y="120.969"
+                  width="55"
+                  height="27.75"
+                  fill="#3A2706"
+                />
+                <rect
+                  id="Rectangle 17"
+                  x="66.5469"
+                  y="148.719"
+                  width="27.9375"
+                  height="27.75"
+                  fill="#714F0E"
+                />
+                <rect
+                  id="Rectangle 18"
+                  x="94.4844"
+                  y="148.719"
+                  width="27.9375"
+                  height="27.75"
+                  fill="#523809"
+                />
+                <rect
+                  id="Rectangle 21"
+                  x="122.422"
+                  y="148.719"
+                  width="161.812"
+                  height="27.75"
+                  fill="#3A2706"
+                />
+                <rect
+                  id="Rectangle 16"
+                  x="121.234"
+                  y="120.969"
+                  width="163"
+                  height="27.75"
+                  fill="#43300B"
+                />
+                <rect
+                  id="Rectangle 22"
+                  x="284.234"
+                  y="120.969"
+                  width="55.5"
+                  height="27.75"
+                  fill="#3A2706"
+                />
+                <rect
+                  id="Rectangle 23"
+                  x="284.234"
+                  y="148.719"
+                  width="55.5"
+                  height="27.75"
+                  fill="#523809"
+                />
+                <rect
+                  id="Rectangle 8"
+                  x="94.4844"
+                  y="93.2188"
+                  width="79.75"
+                  height="27.75"
+                  fill="#43300B"
+                />
+                <rect
+                  id="Rectangle 9"
+                  x="174.234"
+                  y="93.1562"
+                  width="83.25"
+                  height="27.8125"
+                  fill="#533809"
+                />
+                <rect
+                  id="Rectangle 11"
+                  x="257.484"
+                  y="93.2188"
+                  width="54.25"
+                  height="27.75"
+                  fill="#43300B"
+                />
+                <rect
+                  id="Rectangle 12"
+                  x="311.734"
+                  y="93.2188"
+                  width="28"
+                  height="27.75"
+                  fill="#533809"
+                />
+              </g>
+              <g id="soup">
+                <rect
+                  id="s-1"
+                  x="121.406"
+                  y="121.031"
+                  width="27.375"
+                  height="27.75"
+                  fill="#BF785E"
+                />
+                <rect
+                  id="s-2"
+                  x="147.484"
+                  y="121.031"
+                  width="29.5781"
+                  height="27.75"
+                  fill="#CE8C70"
+                />
+                <rect
+                  id="s-3"
+                  x="176"
+                  y="121.031"
+                  width="29.625"
+                  height="27.75"
+                  fill="#CE8C70"
+                />
+                <rect
+                  id="s-4"
+                  x="204.974"
+                  y="121.031"
+                  width="28.2759"
+                  height="27.75"
+                  fill="#CE8C70"
+                />
+                <rect
+                  id="s-5"
+                  x="231.75"
+                  y="121.031"
+                  width="25.9468"
+                  height="27.75"
+                  fill="#CE8C70"
+                />
+                <rect
+                  id="s-6"
+                  x="256.25"
+                  y="121.031"
+                  width="28.3125"
+                  height="27.75"
+                  fill="#BF785E"
+                />
+                <rect
+                  id="s-7-2"
+                  x="255.25"
+                  y="93.2812"
+                  width="29.3125"
+                  height="28.4011"
+                  fill="#CE8C70"
+                />
+                <rect
+                  id="s-7-1"
+                  x="121.562"
+                  y="93.2812"
+                  width="27.9375"
+                  height="28.4011"
+                  fill="#CD9778"
+                />
+                <rect
+                  id="s-8-1"
+                  x="94.2761"
+                  y="93.2812"
+                  width="28.1458"
+                  height="28.4011"
+                  fill="#CD9778"
+                />
+                <rect
+                  id="s-9-1"
+                  x="66.375"
+                  y="93.2812"
+                  width="29"
+                  height="28.4011"
+                  fill="#CE8C70"
+                />
+                <rect
+                  id="s-8-2"
+                  x="283.875"
+                  y="93.2812"
+                  width="28.2083"
+                  height="28.4011"
+                  fill="#CE8C70"
+                />
+                <rect
+                  id="s-9-2"
+                  x="310.875"
+                  y="93.2812"
+                  width="28.7812"
+                  height="28.4011"
+                  fill="#BF785E"
+                />
+                <rect
+                  id="s-10-1"
+                  x="148.125"
+                  y="93.2812"
+                  width="27.875"
+                  height="28.4011"
+                  fill="#CD9778"
+                />
+                <rect
+                  id="s-10-2"
+                  x="230.699"
+                  y="93.2812"
+                  width="25.5513"
+                  height="28.4011"
+                  fill="#CE8C70"
+                />
+                <rect
+                  id="s-11-1"
+                  x="174.725"
+                  y="93.2812"
+                  width="31.7745"
+                  height="28.4011"
+                  fill="#CD9778"
+                />
+                <rect
+                  id="s-11-2"
+                  x="204.974"
+                  y="93.2812"
+                  width="26.7759"
+                  height="28.4011"
+                  fill="#CD9778"
+                />
+                <rect
+                  id="s-12-1"
+                  x="121.562"
+                  y="65.4688"
+                  width="27.9375"
+                  height="28.3125"
+                  fill="#BF785E"
+                />
+                <rect
+                  id="s-12-2"
+                  x="257.697"
+                  y="65.4688"
+                  width="26.8657"
+                  height="28.3126"
+                  fill="#BF785E"
+                />
+                <rect
+                  id="s-13-1"
+                  x="148.781"
+                  y="65.4688"
+                  width="27.5938"
+                  height="28.3125"
+                  fill="#CE8C70"
+                />
+                <rect
+                  id="s-13-2"
+                  x="230.699"
+                  y="65.4688"
+                  width="27.4888"
+                  height="28.3126"
+                  fill="#BF785E"
+                />
+                <rect
+                  id="s-14-1"
+                  x="175.688"
+                  y="65.4688"
+                  width="29.2866"
+                  height="28.3125"
+                  fill="#CE8C70"
+                />
+                <rect
+                  id="s-14-2"
+                  x="204.375"
+                  y="65.4688"
+                  width="27.375"
+                  height="28.3125"
+                  fill="#BF785E"
+                />
+              </g>
+            </g>
+          </g>
+        </svg>
+
+        <a class="beginBtn" href="#">Begin</a>
+      </div>
+    </div>
+  </body>
+</html>
